@@ -1,0 +1,176 @@
+@font-face{
+	font-family:'medieval-1';
+	src: url('../fontes/fonte2.otf');
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container{
+	font-family:'medieval-1';
+	background-image:url(../img/livros.jpg);/*linear-gradient*/
+	background-attachment:fixed;
+	background-size:100%;
+	height:100%;
+}
+#topo{
+	font-family:'medieval-1';
+	display:flex;
+	width:100%;
+	height:60px;
+	background-color:black;
+}
+ ul{
+	font-family:('medieval-1');
+	width:100%;
+	height:10%;
+	color:white;
+	justify-content:space-around;
+}
+footer img{
+	display:flex;
+	width:150px;
+	height:100px;
+}
+#título h1{
+	padding:10px;
+	display:flex;
+	justify-content:flex-start;
+	color:white;
+}
+#menu{
+	list-style:none;
+	padding:0;
+}
+#menu li{
+	align-items:stretch;
+	display:inline;
+}
+#menu li a{
+	color:white;
+	text-decoration:none;
+	padding:20px;
+	display:inline-block;
+	transition:background .5s;
+}
+#menu li a:hover{
+	background-color:white;
+	color:black;
+}
+#titulo2{
+	position:absolute;
+	top:50%;
+	left:50%;
+	right:20%;
+
+	
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-40%, -60%);
+	height:40px;
+	padding:10px;
+	border-radius:40px;
+	display:flex;
+	justify-content:space-between;
+	color:white;
+}
+#logo{
+	animation: float 5s ease-in-out infinite;
+}
+footer{
+		display:felx;
+		justify-content:space-between;
+		background-color:black;
+		width:100%;
+		height:80px;
+		padding:20px;
+}
+footer h4{
+	color: white;
+	margin:5px;
+}
+#rodape img{
+	margin-bottom:-18px;
+}
+#rodape-img{
+	
+	margin-bottom:-18px;
+	display:stretch;
+	justify-content:space-between;
+	align-items:flex-start;
+}
+.avenda a img:hover{
+	box-shadow:10px 60px 40px black;
+	transition:0.6s;
+}
+
+
+
+
+#livros{
+	display:grid;
+	gap:10px;
+ 
+} 
+.avenda{
+	
+	
+	
+	display:grid;
+	
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr; 
+	grid-column:2/6;
+	grid-row:2/7;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+	padding:10px;
+	color:black;
+	display:grid;
+	gap:10px;
+	
+	background:linear-gradient(graytransparent,white,gray,transparent,gray)
+}
+
+.avenda a{
+	text-decoration:none;
+	display:block;
+	
+	color:black;
+	
+	
+}
+.avenda a:hover{
+	color:white;
+}
+.avenda a img{
+   width:100%;
+   height:330px;
+   object-fit:cover;
+}
+#populares{
+	color:white;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:50px;
+	margin-bottom:50px;
+	background-color:black;
+
+	height:30px;
+	width:100%;
+	margin:20px 0;
+	text-align:center;
+		
+}
+#namebook{
+	background-color:white;
+	
+	width:100%;
+	margin-bottom:20px;
+	text-align:center;	
+	border-bottom:1px solid white;
+}

@@ -1,0 +1,214 @@
+
+@font-face{
+	font-family:'medieval-1';
+	src: url('../fontes/fonte2.otf');
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	
+	background-image:url(../img/livros.jpg);/*linear-gradient*/
+	background-attachment:fixed;
+	background-size:100%;
+	height:100%;
+	
+}
+#cad{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#topo{
+	font-family:'medieval-1';
+	display:flex;
+	width:100%;
+	height:60px;
+	background-color:black;
+}
+ ul{
+	width:100%;
+	height:10%;
+	color:white;
+	justify-content:space-around;
+}
+footer img{
+	display:flex;
+	width:150px;
+	height:100px;
+}
+#título h1{
+	padding:10px;
+	display:flex;
+	justify-content:flex-start;
+	color:white;
+}
+#menu{
+	list-style:none;
+	padding:0;
+}
+#menu li{
+	align-items:stretch;
+	display:inline;
+}
+#menu li a{
+	color:white;
+	text-decoration:none;
+	padding:20px;
+	display:inline-block;
+	transition:background .5s;
+}
+#menu li a:hover{
+	background-color:white;
+	color:black;
+}
+#titulo2{
+	position:absolute;
+	top:50%;
+	left:50%;
+	right:20%;
+
+	
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-40%, -60%);
+	height:40px;
+	padding:10px;
+	border-radius:40px;
+	display:flex;
+	justify-content:space-between;
+	color:white;
+}
+#logo{
+	animation: float 5s ease-in-out infinite;
+}
+@keyframes float{
+	
+	0%{
+		transform:translatey(0px);
+		background-color:transparent;
+	}
+	50%{
+		transform:translatey(-5px);
+		background-color:transparent;
+	}
+	100%{
+		
+		transform:translatey(0px);
+		background-color:transparent;
+	}
+}
+@keyframes float2{
+	
+	0%{
+		
+		box-shadow:0px 15px 15px black;
+	}
+	25%{
+		
+		box-shadow: -10px -15px 15px  red;
+		background-color:transparent;
+	}
+	50%{
+		
+		box-shadow: -10px -15px 15px  cyan;
+		background-color:transparent;
+	}
+	75%{
+		
+		box-shadow:0px -15px 15px gold;
+		background-color:transparent;
+	}
+	100%{
+		
+		box-shadow:0px -15px 15px darkblue;
+		background-color:transparent;
+	}
+}
+#g-icon img{
+	border-radius:50%;
+	animation: float2 5s ease-in-out;
+}
+#sobre-a-pg{
+	display:flex;
+	margin:10%;
+}
+aside{
+	background-color:white;
+	color:black;
+	padding:50px;
+	margin-left:20px;
+	
+}
+main{
+	background-color:white;
+	color:black;
+	margin:50px;
+	padding:50px;
+	width:50%;
+}
+footer{
+		display:felx;
+		justify-content:space-between;
+		background-color:black;
+		width:100%;
+		height:80px;
+		padding:20px;
+}
+footer h4{
+	color: white;
+	margin:5px;
+}
+#rodape img{
+	margin-bottom:-18px;
+}
+#rodape-img{
+	
+	margin-bottom:-18px;
+	display:stretch;
+	justify-content:space-between;
+	align-items:flex-start;
+}
+#cad2{
+	padding-left:30%;
+	padding-right:30%;
+	
+	width:40%;
+	display:flex;
+	width:100%;
+	display:flex;
+	justify-content:center;
+}
+#form{
+	padding:15%;
+	width:40%;
+	display:flex;
+	justify-content:center;
+	border-radius:5%;
+		
+
+}
+p{
+	font-size:15px;
+	margin:5px;
+}
+main a{
+	text-decoration:none;
+}
+input{
+	margin:15px;
+	background-color:black;
+	color:white;
+	border-color:black;
+	transition:0.6s;
+}
+input:hover{
+	border-color:red;
+}
+#termosdeuso{
+	display:flex;
+	
+}
